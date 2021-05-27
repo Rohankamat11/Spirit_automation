@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <title>Spirit Bots</title>
+</head>
+<style>
+    h1,
+    h2 {
+        font-family: 'Pattaya', sans-serif;
+    }
+
+    h4 {
+        font-family: cursive;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .ON {
+        border: 2px solid rgb(30, 185, 30);
+        margin: 8px;
+        font-family: cursive;
+        box-shadow: 2px 2px 5px black;
+        border-radius: 10px;
+        width: 53px;
+    }
+
+    .OFF {
+        border: 2px solid red;
+        margin: 8px;
+        font-family: cursive;
+        box-shadow: 2px 2px 5px black;
+        border-radius: 10px;
+        width: 53px;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+
+<body>
+    <center>
+        <h1>Spirit Bots</h1>
+        <h2>Home Automation</h2>
+
+        <div class="container">
+            <button class="ON" onclick="window.location.href = 'http://192.168.4.1/led1on'">ON</button>
+            <h4>LED1</h4>
+            <button class="OFF" onclick="window.location.href = 'http://192.168.4.1/led1off'">OFF</button>
+        </div>
+
+        <div class="container">
+            <button class="ON" onclick="window.location.href = 'http://192.168.4.1/led2on'">ON</button>
+            <h4>LED2</h4>
+            <button class="OFF" onclick="window.location.href = 'http://192.168.4.1/led2off'">OFF</button>
+
+        </div>
+
+        <div class="container">
+            <button class="ON" onclick="window.location.href = 'http://192.168.4.1/led3on'">ON</button>
+            <h4>LED3</h4>
+            <button class="OFF" onclick="window.location.href = 'http://192.168.4.1/led3off'">OFF</button>
+
+        </div>
+
+        <div class="container">
+            <button class="ON" onclick="window.location.href = 'http://192.168.4.1/led4on'">ON</button>
+            <h4>LED4</h4>
+            <button class="OFF" onclick="window.location.href = 'http://192.168.4.1/led4off'">OFF</button>
+        </div>
+
+        <div class="container">
+            <button class="ON" onclick="window.location.href = 'http://192.168.4.1/led5on'">ON</button>
+            <h4>LED5</h4>
+            <button class="OFF" onclick="window.location.href = 'http://192.168.4.1/led5off'">OFF</button>
+        </div>
+
+        <div class="container">
+            <button class="ON" onclick="window.location.href = 'http://192.168.4.1/led6on'">ON</button>
+            <h4>LED6</h4>
+            <button class="OFF" onclick="window.location.href = 'http://192.168.4.1/led6off'">OFF</button>
+
+        </div>
+
+    </center>
+
+
+</body>
+
+</html>
